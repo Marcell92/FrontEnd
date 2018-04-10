@@ -7,10 +7,10 @@
     color: darkblue;
 }
 
-.MainBody {
+/*.MainBody {*/
 
-    background-color: lightgray;
-}
+    /*background-color: lightgray;*/
+/*}*/
 
 h1 {
     font-family: Calibri;
@@ -27,16 +27,20 @@ h1 {
     color: yellowgreen;
 }
 
-.topnav input[type=text] {
+.MainBody input[type=text] {
     float: right;
     padding: 6px;
     border: none;
-    margin-top: 7px;
     margin-right: 12px;
     font-size: 12px;
 }
 
 .topnav:hover, .topnav:active {
     font-size: 125%;
+}
+
+html {
+
+    background-image: url("http://www.cheville.co.uk/wp-content/uploads/2014/03/Wide-Plank_1.jpg");
 }
 
