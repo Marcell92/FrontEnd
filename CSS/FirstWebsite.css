@@ -4,6 +4,7 @@
     font-size: large;
     font-weight: bolder;
     text-align: center;
+    color: darkblue;
 }
 
 .MainBody {
@@ -34,3 +35,8 @@ h1 {
     margin-right: 12px;
     font-size: 12px;
 }
+
+.topnav:hover, .topnav:active {
+    font-size: 125%;
+}
+
