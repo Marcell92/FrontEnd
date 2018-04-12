@@ -22,13 +22,13 @@
 // }
 //
 // window.alert (squarefunction1(5));
-
+//
 // var name="Marcell";
 // var number="8"
 // window.alert(name)
 // console.log(number)
 // document.writeln(name)
-
+//
 
 
 function clicking () {
@@ -49,10 +49,6 @@ function increaseage(){
     document.getElementById("age").value = +person.age;
 }
 
-function changecolor(){
-
-
-}
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
@@ -122,82 +118,17 @@ function square(){
 }
 
 
-// function showit (){
-//     window.alert(newperson.name)
-//     window.alert(newperson.age)
-//     window.alert(newperson.occupation)
-// }
+function showit (){
+    window.alert(newperson.name)
+    window.alert(newperson.age)
+    window.alert(newperson.occupation)
+}
 
 function toUppercase() {
     var text1 = "He said \"My name is Elliott!\"";
     var text2 = text1.toUpperCase();
     document.getElementById("upper").innerHTML = text2;
 }
-
-    var string1 = "hellom";
-    var number1 = 8;
-    document.getElementById('con').innerText = string1 + number1;
-
-
-    var garage = ["BMW", "Ford", "KIA", "Mercedes"];
-    document.getElementById("a").innerHTML = garage
-    garage.push("Audi");
-    document.getElementById("b").innerHTML = garage
-    garage.pop("Audi");
-    document.getElementById("c").innerHTML = garage
-
-function checkage(){
-
-    if (person.age >= 20 && person.age <= 40){
-        document.getElementById("agecheck").innerHTML = "The person is between 20 and 40 years old"
-    }
-    else
-        document.getElementById("agecheck").innerHTML = "The person is not between 20 and 40 years old"
-}
-
-function iterate1(){
-        for (var i = 0; i < 11; i++) {
-
-        console.log(i);
-    }
-}
-
-function iterate2(){
-    for (var i = 0; i < 11; i++) {
-
-        if (i % 2 == 0){
-
-            console.log(i);
-        }
-    }
-}
-iterate1();
-iterate2();
-
-function iterate3() {
-
-    for (var i = 1; i <= 30; i++) {
-
-        if (i % 3 == 0 && i % 5 != 0) {
-            console.log("Fizz");
-        }
-
-        else if (i % 5 == 0 && i % 3 != 0) {
-            console.log("Buzz");
-        }
-
-
-        else if (i % 3 != 0 && i % 5 != 0) {
-            console.log(i);
-        }
-
-        else if (i % 3 == 0 && i % 5 == 0) {
-            console.log("FizzBuzz");
-        }
-    }
-}
-
-iterate3();
 
 
 
