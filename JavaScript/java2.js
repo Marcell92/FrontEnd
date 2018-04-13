@@ -140,11 +140,9 @@ function deleteparagraph(){
 function paragraph2() {
 
     var text = document.getElementById("para").value;
-    var t = document.createTextNode(text);
-    var a = document.createTextNode(text);
 
     if (document.getElementById("para1") !=null){
-    
+        document.getElementById("para1").innerHTML = text;
 
     }
 }
